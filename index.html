@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setara Fayazi-Home</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: -o-linear-gradient(to right,#d9d9d9,#97d9e1);
+            color: #333;
+            margin: 0s;
+            text-align: center;
+        }
+        header {
+            background: rgba(rgb(204, 126, 126), rgb(124, 210, 124), rgb(153, 153, 175), alpha);
+            padding: 25px 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        header h1 {
+            font-size: 36px;font-weight: bold;
+            color: aqua;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px; solid: #4b0082;
+            width: fit-content;
+            margin: auto;
+            display: inline-block;
+            animation: typing 3.5s steps(28 end) forwards;
+        }
+        @keyframes typing {
+            from {width: 0;}
+            to {width: 100%;}
+        }
+        nav {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4b0082;
+            font-weight: bold;
+            padding: 8px 18px;
+            border-radius: 20px;
+            background: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0,1);
+            transition: background-color 0.3s, color 0.3s;
+            color: 0.3s;
+            flex:1 0 auto;
+        }
+    nav a:hover {
+        background: #4b0082;
+        color: white;
+    }
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px; 
+        background: rgba(255, 255, 255, 0, 85);
+        border-radius: 15px;box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+    }
+    section {
+        padding: 20px;
+    }
+    section h2 { 
+        color: #4b0082;
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+    section p { 
+        font-size: 18px;
+        line-height: 1.6;
+        color: #444;
+    }
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 2);
+        margin-bottom: 20px;
+    }
+    @media(max-width:600px)
+    {
+        header h1{
+            animation: none;
+            border-right: none;
+            white-space: normal;
+            width: auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello Welcom to the page of setara Fayazi</h1>
+        <nav>
+            <a href="index.html">Home</a>
+             <a href="Resume.html">Resume</a>
+              <a href="Achievements.html">Achivements</a>
+               <a href="Blog.html">Blog</a>
+                <a href="Contct.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="Sita.jpg" alt="Setara Fayazi" class="profile-img"/>
+            <h2>About Me</h2>
+            <p>
+                I am Setara fayazi a passionate young girl from Ghazni corrently living in Kabul, Afghanistan.<br><br>
+                Since childhood I was intereted in  working with computer,I dream of becoming computer engineering and well-known person who make different kind of robots.
+                <br><br>
+                I leared actively many computer programs such as ICDL,Photoshop,fast typing, and some programing languages like python,HTML,CSS. 
+                I graduated from school in 2021. Despite many challenges, I continued to learn and persuing my dreams.<br><br>
+                I am also passinate to learm more about machine learning. I enjoy creating useful things and different kind of machines to solve the prblems.
+
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
